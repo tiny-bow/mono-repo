@@ -104,6 +104,11 @@
         "wasi",
         "wcwidth",
         "zimalloc",
-        "rlfw"
+        "rlfw",
+        "Koka",
+        "mallocs",
+        "RAII",
+        "sandboxed",
+        "Userbase"
     ],
 }
