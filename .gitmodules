@@ -31,3 +31,6 @@
 [submodule "rg"]
 	path = rg
 	url = https://github.com/tiny-bow/rg
+[submodule "notes"]
+	path = notes
+	url = https://github.com/tiny-bow/notes
