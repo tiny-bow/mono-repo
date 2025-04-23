@@ -34,3 +34,6 @@
 [submodule "r64"]
 	path = r64
 	url = https://github.com/tiny-bow/r64
+[submodule "ribbon-engine.github.io"]
+	path = ribbon-engine.github.io
+	url = https://github.com/tiny-bow/ribbon-engine.github.io
