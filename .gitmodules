@@ -16,3 +16,12 @@
 [submodule "vscode-rml-syntax"]
 	path = vscode-rml-syntax
 	url = https://github.com/tiny-bow/vscode-rml-syntax
+[submodule "rgl"]
+	path = rgl
+	url = https://github.com/tiny-bow/rgl
+[submodule "rlfw"]
+	path = rlfw
+	url = https://github.com/tiny-bow/rlfw
+[submodule "X64EZ"]
+	path = X64EZ
+	url = https://github.com/tiny-bow/X64EZ
