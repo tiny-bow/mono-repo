@@ -1,0 +1,15 @@
+[submodule "ribbon-language"]
+	path = ribbon-language
+	url = https://github.com/tiny-bow/ribbon-language.git
+[submodule "ribbon-engine"]
+	path = ribbon-engine
+	url = https://github.com/tiny-bow/ribbon-engine.git
+[submodule ".github"]
+	path = .github
+	url = https://github.com/tiny-bow/.github
+[submodule "ribbon-lang.github.io"]
+	path = ribbon-lang.github.io
+	url = https://github.com/tiny-bow/ribbon-lang.github.io
+[submodule "vscode-rml-syntax"]
+	path = vscode-rml-syntax
+	url = https://github.com/tiny-bow/vscode-rml-syntax
