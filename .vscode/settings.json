@@ -104,6 +104,6 @@
         "wasi",
         "wcwidth",
         "zimalloc",
-        "zlfw"
+        "rlfw"
     ],
 }

@@ -22,9 +22,6 @@
 [submodule "rlfw"]
 	path = rlfw
 	url = https://github.com/tiny-bow/rlfw
-[submodule "X64EZ"]
-	path = X64EZ
-	url = https://github.com/tiny-bow/X64EZ
 [submodule "utils"]
 	path = utils
 	url = https://github.com/tiny-bow/utils
@@ -34,3 +31,6 @@
 [submodule "notes"]
 	path = notes
 	url = https://github.com/tiny-bow/notes
+[submodule "r64"]
+	path = r64
+	url = https://github.com/tiny-bow/r64
