@@ -10,6 +10,9 @@
 [submodule "ribbon-lang.github.io"]
 	path = ribbon-lang.github.io
 	url = https://github.com/tiny-bow/ribbon-lang.github.io
+[submodule "tiny-bow.github.io"]
+    path = tiny-bow.github.io
+    url = https://github.com/tiny-bow/tiny-bow.github.io
 [submodule "vscode-rml-syntax"]
 	path = vscode-rml-syntax
 	url = https://github.com/tiny-bow/vscode-rml-syntax
