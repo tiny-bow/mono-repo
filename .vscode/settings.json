@@ -16,6 +16,11 @@
         "**/.zvm/**": true,
     },
 
+    "files.associations": {
+        "*.shader": "toml",
+        "*.mod": "toml",
+    },
+
     // TODO: investigate further
     // there have been some issues with editorconfig lately, leaving this here for now
     "files.trimTrailingWhitespace": true,
@@ -27,6 +32,10 @@
         "**.zig",
         "**.md",
         "**.json",
+        "**.toml",
+        "**.vert",
+        "**.frag",
+        "**.asm",
     ],
     "cSpell.ignorePaths": [
         ".zig-cache/**",
@@ -42,6 +51,7 @@
         "builtinc",
         "callc",
         "callconv",
+        "cmov",
         "codegen",
         "codepoint",
         "Codepoints",
@@ -64,6 +74,7 @@
         "ints",
         "isize",
         "Koka",
+        "libc",
         "lshift",
         "mallocs",
         "memcpy",
@@ -90,6 +101,7 @@
         "Repr",
         "rlfw",
         "rodata",
+        "roml",
         "rshift",
         "sandboxed",
         "signbit",
