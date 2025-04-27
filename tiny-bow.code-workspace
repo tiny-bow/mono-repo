@@ -1,0 +1,213 @@
+{
+	"folders": [
+        {
+            "path": "ribbon-language"
+        },
+        {
+            "path": "vscode-rml-syntax"
+        },
+        {
+            "path": "tiny-bow.github.io"
+        },
+        {
+            "path": "roml"
+        },
+        {
+            "path": "rlfw"
+        },
+        {
+            "path": "ribbon-platform"
+        },
+        {
+            "path": "ribbon-lang.github.io"
+        },
+        {
+            "path": "ribbon-engine.github.io"
+        },
+        {
+            "path": "ribbon-engine"
+        },
+        {
+            "path": "rgl"
+        },
+        {
+            "path": "rg"
+        },
+        {
+            "path": "r64"
+        },
+        {
+            "path": "notes"
+        },
+        {
+            "path": ".tools"
+        },
+        {
+            "path": ".github"
+        },
+        {
+            "path": ".git"
+        },
+        {
+            "path": ".depr"
+        },
+        {
+            "path": "."
+        }
+    ],
+	"settings": {
+        "zig.zls.enabled": "on",
+        "zig.buildOnSave": true,
+        "zig.zls.buildOnSaveArgs": [
+            "check"
+        ],
+
+        "nasm.outputFormat": "elf64",
+        "nasm.extraFlags": [
+            "-I zig-out/tmp"
+        ],
+
+        "files.readonlyInclude": {
+            "**/zig-out/**": true,
+            "**/.zig-cache/**": true,
+            "**/.zvm/**": true,
+        },
+
+        "files.associations": {
+            "*.shader": "toml",
+            "*.mod": "toml",
+        },
+
+        // TODO: investigate further
+        // there have been some issues with editorconfig lately, leaving this here for now
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+
+        "cSpell.files": [
+            "**.bb",
+            "**.rml",
+            "**.zig",
+            "**.md",
+            "**.json",
+            "**.toml",
+            "**.vert",
+            "**.frag",
+            "**.asm",
+        ],
+        "cSpell.ignorePaths": [
+            ".zig-cache/**",
+            "zig-out/**",
+        ],
+        "cSpell.words": [
+            "anyerror",
+            "anyframe",
+            "anyopaque",
+            "anytype",
+            "bisearch",
+            "bitcast",
+            "builtinc",
+            "callc",
+            "callconv",
+            "cmov",
+            "codegen",
+            "codepoint",
+            "Codepoints",
+            "comptime",
+            "deinit",
+            "Deinitialize",
+            "Deinitializes",
+            "denormal",
+            "disas",
+            "endmacro",
+            "errdefer",
+            "foreignc",
+            "GLbitfield",
+            "glsl",
+            "ifndef",
+            "immediates",
+            "impls",
+            "interner",
+            "interners",
+            "ints",
+            "isize",
+            "Koka",
+            "libc",
+            "lshift",
+            "mallocs",
+            "memcpy",
+            "memset",
+            "mergetool",
+            "mmap",
+            "modders",
+            "mprotect",
+            "munmap",
+            "nasm",
+            "nbsp",
+            "noalias",
+            "noreturn",
+            "ofmt",
+            "orelse",
+            "overrider",
+            "overriders",
+            "Pointee",
+            "powi",
+            "prng",
+            "punc",
+            "RAII",
+            "realpath",
+            "rema",
+            "remb",
+            "Repr",
+            "rlfw",
+            "rodata",
+            "roml",
+            "rshift",
+            "sandboxed",
+            "signbit",
+            "signedness",
+            "syscall",
+            "sysv",
+            "texpr",
+            "threadlocal",
+            "Titlecase",
+            "trunc",
+            "uninit",
+            "upvalue",
+            "upvalues",
+            "Userbase",
+            "usize",
+            "vmem",
+            "VREG",
+            "vregs",
+            "vtable",
+            "wasi",
+            "wcwidth",
+            "zimalloc"
+        ],
+    },
+    "extensions": {
+        "recommendations": [
+            // zig intellisense and syntax highlighting
+            "ziglang.vscode-zig",
+            // nasm intellisense! how crazy is that?
+            // be sure to use the asm-header task to generate the header this relies on
+            // (configured by settings.json)
+            "doinkythederp.nasm-language-support",
+            // needed for debugging, currently. TODO: evaluate lldb
+            "ms-vscode.cpptools",
+            // works with cspell confing in settings.json
+            "streetsidesoftware.code-spell-checker",
+            // editorconfig support
+            "editorconfig.editorconfig",
+
+            // TODO sibling repos: publish
+            // for now these will be available on the ribbon-lang github
+
+            // ribbon meta language syntax highlighting
+            "ribbon-lang.rml-syntax",
+            // ribbon compiled language syntax highlighting
+            "ribbon-lang.bb-syntax",
+        ]
+    }
+}
+
