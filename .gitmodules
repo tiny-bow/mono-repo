@@ -40,3 +40,6 @@
 [submodule "roml"]
 	path = roml
 	url = https://github.com/tiny-bow/roml
+[submodule "rui"]
+	path = rui
+	url = https://github.com/tiny-bow/rui

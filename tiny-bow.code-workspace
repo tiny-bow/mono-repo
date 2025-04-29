@@ -1,57 +1,79 @@
 {
 	"folders": [
         {
+            "name": "ribbon-language",
             "path": "ribbon-language"
         },
         {
-            "path": "vscode-rml-syntax"
-        },
-        {
-            "path": "tiny-bow.github.io"
-        },
-        {
-            "path": "roml"
-        },
-        {
-            "path": "rlfw"
-        },
-        {
+            "name": "ribbon-platform",
             "path": "ribbon-platform"
         },
         {
-            "path": "ribbon-lang.github.io"
-        },
-        {
-            "path": "ribbon-engine.github.io"
-        },
-        {
+            "name": "ribbon-engine",
             "path": "ribbon-engine"
         },
         {
+            "name": "rui",
+            "path": "rui"
+        },
+        {
+            "name": "roml",
+            "path": "roml"
+        },
+        {
+            "name": "rlfw",
+            "path": "rlfw"
+        },
+        {
+            "name": "rgl",
             "path": "rgl"
         },
         {
+            "name": "rg",
             "path": "rg"
         },
         {
+            "name": "r64",
             "path": "r64"
         },
         {
+            "name": "vscode-rml-syntax",
+            "path": "vscode-rml-syntax"
+        },
+        {
+            "name": "notes",
             "path": "notes"
         },
         {
+            "name": ".tools",
             "path": ".tools"
         },
         {
+            "name": ".github",
             "path": ".github"
         },
         {
+            "name": ".git",
             "path": ".git"
         },
         {
+            "name": ".depr",
             "path": ".depr"
         },
         {
+            "name": "tiny-bow.github.io",
+            "path": "tiny-bow.github.io"
+        },
+        {
+            "name": "ribbon-lang.github.io",
+            "path": "ribbon-lang.github.io"
+        },
+        {
+            "name": "ribbon-engine.github.io",
+            "path": "ribbon-engine.github.io"
+        },
+        {
+            "name": "mono-repo",
             "path": "."
         }
     ],
@@ -99,6 +121,7 @@
             "zig-out/**",
         ],
         "cSpell.words": [
+            "ABGR",
             "anyerror",
             "anyframe",
             "anyopaque",
@@ -121,8 +144,10 @@
             "endmacro",
             "errdefer",
             "foreignc",
+            "gamepads",
             "GLbitfield",
             "glsl",
+            "ibeam",
             "ifndef",
             "immediates",
             "impls",
@@ -151,6 +176,7 @@
             "overriders",
             "Pointee",
             "powi",
+            "PREMULTIPLY",
             "prng",
             "punc",
             "RAII",
@@ -158,6 +184,7 @@
             "rema",
             "remb",
             "Repr",
+            "RGBA",
             "rlfw",
             "rodata",
             "roml",
@@ -165,6 +192,7 @@
             "sandboxed",
             "signbit",
             "signedness",
+            "stbi",
             "syscall",
             "sysv",
             "texpr",
@@ -179,6 +207,7 @@
             "vmem",
             "VREG",
             "vregs",
+            "vsync",
             "vtable",
             "wasi",
             "wcwidth",
