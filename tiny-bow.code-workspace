@@ -5,12 +5,12 @@
             "path": "ribbon-language"
         },
         {
-            "name": "ribbon-platform",
-            "path": "ribbon-platform"
-        },
-        {
             "name": "ribbon-engine",
             "path": "ribbon-engine"
+        },
+        {
+            "name": "ribbon-platform",
+            "path": "ribbon-platform"
         },
         {
             "name": "rui",
