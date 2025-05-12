@@ -43,3 +43,6 @@
 [submodule "rui"]
 	path = rui
 	url = https://github.com/tiny-bow/rui
+[submodule "repl"]
+	path = repl
+	url = https://github.com/tiny-bow/repl
