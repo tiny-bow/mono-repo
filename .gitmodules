@@ -49,3 +49,6 @@
 [submodule "language-design"]
 	path = language-design
 	url = https://github.com/tiny-bow/language-design
+[submodule "engine-design"]
+	path = engine-design
+	url = https://github.com/tiny-bow/engine-design.git
