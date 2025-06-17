@@ -46,3 +46,6 @@
 [submodule "repl"]
 	path = repl
 	url = https://github.com/tiny-bow/repl
+[submodule "language-design"]
+	path = language-design
+	url = https://github.com/tiny-bow/language-design
