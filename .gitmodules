@@ -52,3 +52,6 @@
 [submodule "engine-design"]
 	path = engine-design
 	url = https://github.com/tiny-bow/engine-design.git
+[submodule "rssg"]
+	path = rssg
+	url = https://github.com/tiny-bow/rssg
