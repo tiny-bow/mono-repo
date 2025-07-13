@@ -22,9 +22,6 @@
 [submodule "rlfw"]
 	path = rlfw
 	url = https://github.com/tiny-bow/rlfw
-[submodule "ribbon-platform"]
-	path = ribbon-platform
-	url = https://github.com/tiny-bow/ribbon-platform
 [submodule "rg"]
 	path = rg
 	url = https://github.com/tiny-bow/rg
